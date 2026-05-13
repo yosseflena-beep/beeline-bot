@@ -68,4 +68,4 @@ def save_response(record: dict) -> None:
         record.get("q5", ""),
     ]
 
-    sheet.append_row(row, value_input_option="USER_ENTERED")
+    sheet.append_row(row, value_input_option="RAW")
